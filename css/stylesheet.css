@@ -1,0 +1,17 @@
+table {
+  width: 100%;
+  text-align: center;
+}
+
+th {
+  background-color: rgb(253, 147, 25);
+  border: 1px solid;
+  height: 50px;
+}
+
+td {
+  background-color: rgb(255, 207, 152);
+  border: 1px solid;
+  height: 40px;
+  font-style: italic;
+}
