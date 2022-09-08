@@ -1,18 +1,18 @@
 body {
-    background-image: url("../img/Fondo.jpg");
-    background-size: cover;
+  background-image: url("../img/Fondo.jpg");
+  background-size: cover;
 }
 .top-bar {
-    text-align: center;
+  text-align: center;
 }
 
 .logo {
-    width: 30%;
+  width: 20%;
 }
 
 .main-info {
-    margin: 30px auto;
-    width: 50%;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.5);
+  margin: 30px auto;
+  width: 50%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
 }
