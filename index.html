@@ -10,7 +10,11 @@
   </head>
   <body>
     <div class="bg-black top-bar">
-      <img src="img/LogoLeagueOfLegends.png" class="logo" />
+      <img
+        src="img/LogoLeagueOfLegends.png"
+        class="logo"
+        alt="LogoLeagueOfLegends"
+      />
     </div>
     <div class="main-info">
       <h1>¿QUÉ ES LEAGUE OF LEGENDS?</h1>
@@ -135,7 +139,7 @@
         </button>
       </div>
     </div>
-    <div class="main-ranges">
+    <div class="main-ranks">
       <div>
         <h2 class="text-bg-white">Clasificacion/Rangos</h2>
         <p class="text-bg-white">
@@ -183,7 +187,44 @@
         </div>
       </div>
     </div>
-
+    <div class="main-form">
+      <form class="contenedor-form">
+        <div class="mb-3">
+          <label class="form-label">Nickname:</label>
+          <input type="text" class="form-control" id="nickname" required />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Correo:</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Contraseña:</label>
+          <input type="text" class="form-control" id="password" required />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Confirmar Contraseña:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="confirmPassword"
+            required
+          />
+        </div>
+        <br />
+        <div class="text-center">
+          <button class="btn btn-success button border-0" type="submit">
+            Registrarse
+          </button>
+        </div>
+        <br />
+      </form>
+    </div>
+    <div class="bg-black top-bar">
+      <br />
+      <img src="img/LogoRiot.png" class="logo" alt="LogoRiot" />
+      <br />
+      <br />
+    </div>
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

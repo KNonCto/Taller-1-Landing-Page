@@ -31,8 +31,25 @@ body {
   text-align: center;
 }
 
-.main-ranges {
+.main-ranks {
   margin: 30px auto;
   width: 70%;
   text-align: center;
+}
+
+.main-form {
+  margin: 30px auto;
+  width: 40%;
+  background-color: rgb(132, 145, 109);
+}
+
+.contenedor-form {
+  margin: 30px auto;
+  padding-top: 20px;
+  width: 90%;
+}
+
+.button {
+  width: 50%;
+  background-color: brown;
 }
