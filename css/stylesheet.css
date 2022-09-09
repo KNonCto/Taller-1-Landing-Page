@@ -16,3 +16,23 @@ body {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.5);
 }
+
+.text-bg-white {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.text-bg-black {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-carousel {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.main-ranges {
+  margin: 30px auto;
+  width: 70%;
+  text-align: center;
+}
